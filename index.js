@@ -45,7 +45,14 @@ function gatherRules(options, ruleset){
  */
 function filterRules(options) {
     var ignore = options.ignore,
+        ignoreFile = options.ignoreFile,
         ruleset = CSSLint.getRuleset();
+
+    if(ignoreFile){
+        for(var i = 0, len = ignoreFile.length; i < len; i++){
+            if(fis.util.filter(file.subpath, ignoreFile[i])) return;
+        }
+    }
 
     if (ignore) {
         if (typeof ignore === 'string') {

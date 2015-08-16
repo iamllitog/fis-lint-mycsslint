@@ -1,10 +1,10 @@
 {
-  "name": "fis-lint-csslint",
+  "name": "fis-lint-mycsslint",
   "description": "A lint plugin for fis to validate css file.",
   "version": "0.0.1",
   "author": {
-    "name": "liangweibin",
-    "email": "liangweibin@baidu.com"
+    "name": "litong",
+    "email": "2496381858@qq.com"
   },
   "main": "index.js",
   "engines": {
@@ -16,6 +16,6 @@
   "dependencies": {
     "csslint": "0.9.10"
   },
-  "homepage": "http://fis.baidu.com/",
+  "homepage": "https://github.com/iamllitog/fis-lint-csslint",
   "readmeFilename": "README.md"
 }

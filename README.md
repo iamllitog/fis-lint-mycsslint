@@ -37,7 +37,12 @@ fis.config.set('settings.lint.csslint', {
     /**
      * 要忽略的规则ID列表，支持数组或以“,”分隔的字符串
      */
-    ignore   : ["rule1", "rule2", ...]
+    ignore   : ["rule1", "rule2", ...],
+
+    /**
+     * 要忽略的文件
+     */
+     ignoreFile : [ 'static/libs/**.css', /jquery\.js$/i ],
 });
 ```
 
