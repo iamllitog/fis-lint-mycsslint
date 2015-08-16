@@ -86,8 +86,6 @@ module.exports = function(content, file, conf){
     if (!content) {
         return;
     }
-    
-    //过滤文件
     var ignoreFile = conf.ignoreFile;
     if(ignoreFile){
         for(var i = 0, len = ignoreFile.length; i < len; i++){

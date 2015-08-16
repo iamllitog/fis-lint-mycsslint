@@ -1,7 +1,7 @@
 {
   "name": "fis-lint-mycsslint",
   "description": "A lint plugin for fis to validate css file.",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "author": {
     "name": "litong",
     "email": "2496381858@qq.com"
